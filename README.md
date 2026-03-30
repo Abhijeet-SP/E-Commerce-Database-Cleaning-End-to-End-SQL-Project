@@ -20,14 +20,14 @@ ecommerce-sql-cleaning/
 │   └── ecommerce_dirty.sql          # Raw source database dump (DDL + INSERT)
 │
 ├── scripts/
-│   ├── 01_customers_cleaning.sql
-│   ├── 02_employees_cleaning.sql
-│   ├── 03_products_cleaning.sql
-│   ├── 04_orders_cleaning.sql
-│   ├── 05_order_items_cleaning.sql
-│   ├── 06_payments_cleaning.sql
-│   ├── 07_returns_cleaning.sql
-│   └── 08_reviews_cleaning.sql
+│   ├── customers_cleaning.sql
+│   ├── employees_cleaning.sql
+│   ├── products_cleaning.sql
+│   ├── orders_cleaning.sql
+│   ├── order_items_cleaning.sql
+│   ├── payments_cleaning.sql
+│   ├── returns_cleaning.sql
+│   └── reviews_cleaning.sql
 │
 ├── exploration/
 │   ├── rough_customers.sql          # Iterative exploration & prototyping
