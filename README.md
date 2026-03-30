@@ -138,14 +138,14 @@ This logic is applied consistently across 9 date columns spanning 5 tables.
 SOURCE data/ecommerce_dirty.sql;
 
 -- Step 2: Run cleaning scripts in order
-SOURCE scripts/01_customers_cleaning.sql;
-SOURCE scripts/02_employees_cleaning.sql;
-SOURCE scripts/03_products_cleaning.sql;
-SOURCE scripts/04_orders_cleaning.sql;
-SOURCE scripts/05_order_items_cleaning.sql;
-SOURCE scripts/06_payments_cleaning.sql;
-SOURCE scripts/07_returns_cleaning.sql;
-SOURCE scripts/08_reviews_cleaning.sql;
+SOURCE scripts/customers_cleaning.sql;
+SOURCE scripts/employees_cleaning.sql;
+SOURCE scripts/products_cleaning.sql;
+SOURCE scripts/orders_cleaning.sql;
+SOURCE scripts/order_items_cleaning.sql;
+SOURCE scripts/payments_cleaning.sql;
+SOURCE scripts/returns_cleaning.sql;
+SOURCE scripts/reviews_cleaning.sql;
 ```
 
 Or run them sequentially from the command line:
